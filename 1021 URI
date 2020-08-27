@@ -1,0 +1,72 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class atv1021{
+    public static void main (String[]args){
+
+        Locale.setDefault(Locale.US);
+
+        Scanner input = new Scanner(System.in);
+
+        double valor = input.nextDouble();
+        int total = 0;
+
+        System.out.println("NOTAS:");
+        total =  (int)valor/100;
+        System.out.printf("%d nota(s) de R$ 100.00%n",total);
+        valor = valor % 100.00;
+
+        total =  (int)valor/50;
+        System.out.printf("%d nota(s) de R$ 50.00%n",total);
+        valor = valor % 50.00;
+
+        total =  (int)valor/20;
+        System.out.printf("%d nota(s) de R$ 20.00%n",total);
+        valor = valor % 20.00;
+
+        total =  (int)valor/10;
+        System.out.printf("%d nota(s) de R$ 10.00%n",total);
+        valor = valor % 10.00;
+
+        total =  (int)valor/5;
+        System.out.printf("%d nota(s) de R$ 5.00%n",total);
+        valor = valor % 5.00;
+
+        total =  (int)valor/2;
+        System.out.printf("%d nota(s) de R$ 2.00%n",total);
+        valor = valor % 2.00;
+
+        valor = valor * 100.00;
+
+        System.out.println("MOEDAS:");
+
+        total = (int) valor/100;
+        System.out.printf("%d moeda(s) de R$ 1.00%n", total);
+        valor = valor % 100.00;
+
+        total = (int) valor/50;
+        System.out.printf("%d moeda(s) de R$ 0.50%n", total);
+        valor = valor % 50.00;
+
+        total = (int) valor/25;
+        System.out.printf("%d moeda(s) de R$ 0.25%n", total);
+        valor = valor % 25.00;
+
+        total = (int) valor/10;
+        System.out.printf("%d moeda(s) de R$ 0.10%n",total);
+        valor = valor % 10.00;
+
+        total = (int) valor /5;
+        System.out.printf("%d moeda(s) de R$ 0.5%n", total);
+        valor = valor % 5.00;
+
+        total = (int) valor/1;
+        System.out.printf("%d moeda(s) de R$ 0.01%n", total);
+        valor= valor % 1.00;
+
+
+        input.close();
+
+    }
+
+ }
