@@ -1,0 +1,19 @@
+Tipos numéricos inteiros
+
+byte - 8 bits
+short - 16 bits
+int - 32 bits
+long - 64 bits
+
+Ponto Flutuante
+
+float - 32 bits
+double -  64 bits
+
+Unicode 
+
+char - 16 bits
+
+Valor Verdade
+
+boolean - 1 bit
