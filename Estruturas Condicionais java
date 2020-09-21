@@ -1,0 +1,17 @@
+----------Estruturas Condicionais----------
+- IF (Se)
+Utilizado para armazenar uma linha de comando  caso algo ocorra
+ex: "if (x > 5) {
+  comando
+}
+(se a variável x for maior que 5, execute tal coisa)
+-  ELSE IF (Mais Se)
+Utilizado para continuar a execução de outro programa caso o IF não seja válido
+ex: "if (x < 5) {
+  comando
+}
+(se a variável x for menor que 5, execute tal coisa)
+-  ELSE (Senão)
+Utilizado para executar o resto do comando
+Seguindo a lógica do exemplo, o ELSE seria executado caso x = 5 
+Não é necessário atribuir comando
