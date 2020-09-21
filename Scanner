@@ -1,0 +1,17 @@
+---------- SCANNER ---------
+o Scanner é utilizado para poder colocar o input de uma variável, sendo ela INT, DOUBLE, CHAR ou STRING
+primeiramente devemos importar o Scanner, digitando no código a seguinte linha de código :
+import java.util.Scanner;
+logo em seguida devemos escrever :
+Scanner (nome da variável scanner) = new Scanner(System.in);
+E a partir da variável podemos escolher o tipo de input que queremos chamar
+chamarei o Scanner de "sc" e avariável input de X
+INT:
+int X = sc.nextInt();
+FLOAT:
+float X = sc.nextFloat();
+CHAR:
+X = sc.next().charAt(quantidade de digitos do tipo CHAR);
+STRING:
+String X = sc.next(); ou sc.nextLine(); para quebra de linha
+
