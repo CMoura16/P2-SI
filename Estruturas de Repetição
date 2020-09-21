@@ -1,0 +1,10 @@
+---------- ESTRUTURAS DE REPETIÇÃO ----------
+While (ENQUANTO)
+Estruturar de repetição masi completa, pode ser usada definindo um limite ou se repetindo infinitamente
+Utilizado para repetir uma estrutura indefinidas vezes (While true)
+enquanto for verdade, ele continuará repetindo até que o valor seja "false", assim quebrando o "true"
+For (PARA)
+Estrutura de repetição utilizada para repetir uma caixa de código durante um certo intervalo de repetições
+Você definirá uma variável, e ela será repetida de acordo com a quantidade de vez que você quiser
+Do While (FAZER ENQUANTO)
+Funciona da mesma forma que o While normal, a única diferença é que você pode determinar quando quiser parar de executá-lo
